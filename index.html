@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="script.js"></script>
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
   <title>Beer Review</title>
 </head>
 <body>
@@ -17,7 +15,7 @@
       <section class="beers">
         <h2>Beers</h2>
         <ul class="beers-list">
-          
+
         </ul>
       </section>
 
@@ -36,11 +34,22 @@
             placeholder="Category">
           </input>
         </div>
-        <button class="btn btn-primary post-beer">Post</button>
+        <div class="form-group">
+          <select>
+            <option value="one">1</option>
+            <option value="two">2</option>
+            <option value="three">3</option>
+            <option value="four">4</option>
+            <option value="five">5</option>
+          </select>
+        </div>
+        <button class="btn btn-primary post-beer" type="button">Post</button>
+        <button class="btn btn-primary sort-beer" type="button">Sort</button>
       </form>
-      
+
     </div>
   </div>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
