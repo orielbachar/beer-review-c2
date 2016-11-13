@@ -14,7 +14,7 @@ var BeerReviewApp = function(){
     beers.push(beer1);
     $('.beer-input').val('');
     $('.category-input').val('');
-
+ 
   };
 
   var renderBeers = function(){
